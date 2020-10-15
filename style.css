@@ -1,0 +1,186 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+h1
+{
+    font-size: 60px;
+    font-family: Arial, sans-serif;
+}
+body
+{
+    background-color: bisque;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    opacity: 1;
+}
+.menu-bar
+{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: black;
+}
+ol
+{
+    counter-reset: item;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;  
+    font-size: large;
+}
+b
+{
+    font-size: larger;
+}
+li
+{
+    display: block;
+    margin-bottom: .5em;
+    margin-left: 2em;
+}
+c
+{
+    font: outline;
+    font-size: xx-large;
+    text-align: center;
+    color: darkred;
+}
+.column
+{
+    float: left;
+    width: 33.33%;  
+}
+.row
+{
+    float: right;
+}
+.teamMembercenter
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.ourWorkcenter
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.cranberry_jam_bars
+{
+    display: block;
+    margin-right: auto;
+    width: 50%;
+}
+.choco_chip_zucchini_bread
+{
+    display: block;
+    margin-right: auto;
+    width: auto;  
+}
+.farmed
+{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 40%;
+}
+.contactpumpkin
+{
+    display: block;
+    background: chocolate;
+    width: 90%
+}
+/*-----------------------Submit button---------------*/
+.submitcontact
+{
+    display: block;
+    width: 10%;
+    height: auto;
+    background-color: cornflowerblue;
+}
+/*---------------------submit-----------------------*/
+.messagetext
+{
+    height: 90%; 
+}
+.w3-myfont
+{
+    font-family: "Brush Script MT", cursive, sans-serif;
+    font-size: 36pt;
+    text-align: center;
+    color: lightseagreen;
+}
+.index_title_center
+{
+    text-align: center;
+}
+.active
+{
+    background: none;
+}
