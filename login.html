@@ -10,7 +10,7 @@
     </head>
     <body>
         <h1 style="color:cadetblue">Farmer Market</h1>
-      
+
         <div class="menu-bar">
             <ul>
             <li class="active"><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
@@ -32,7 +32,7 @@
                 </ul>
             </div>
         </li>
-        <li><a href="#"><i class="fa fa-phone"></i>Contact</a>
+            <li><a href="#"><i class="fa fa-phone"></i>Contact</a>
             <div class="sub-menu-1">
                 <ul>
                     <li><a href="login.html">Login Page</a></li>
@@ -43,27 +43,19 @@
         
     </header>
         </div>
-       
-      
-        <ol>
-            <b>   
-            <li><b href="team.html">Current Board Members</b></li>
-            </b>
-            <li>Nony Button, Deputy Director, FreshFarm Markets</li>
-            <li>Marita Owens, Chief Executive Officer, Harvest Home Farmers Markets</li>
-            <li>Nky Uy, Farmers Market Innovator, Community Assets Connector</li>
-            <li>Sarina Jalasd, Executive Director, Georgia Farmers Market Association</li>
-            <li>Gus Schucher, Founder, Wholesome WaveFormer USDA Undersecretary</li>
-            <li>Dle Hawood, Vice President, Illinois Farmers Market Association, IL</li>
-            <li>Bernad Princess, Blue Skies Farm, DE</li>
-            <li>Copper Alvarddsd, Executive Director, BREADA   Baton Rouge, LA</li>
-            <li>Ruthy Whiteman, Programs Administrator, Minnesota Department of Agriculture  St. Paul, Minnesota</li>
-            <li>Monica Rothmeiner,  Agricultural Extension Operator,    Cornell Cooperative Extension, NY</li>
-            <li>Kimberly Hanes, Director, Augusta Locally Grown, GA</li>
-            <li>Janet Fosterlaer, Market Manager, Portland Farmers Market, OR</li>
-        </ol>
-        <br><br><br>
 
-        <img src="teamMember.jpg" border="10" height="400" class="teamMembercenter">
-        </body>
-</html>
+        <main id="main-holder">
+            <h1 id="login-header">Login</h1>
+            
+            <div id="login-error-msg-holder">
+                <p id="login-error-msg">INvalid username <span id="error-msg-second-line">and/or password</span></p>
+            </div>
+
+            <form id="login-form">
+                <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+                <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+                <input type="submit" value="Login" id="login-form-submit">
+            </form>
+        </main>
+    </body>
+    </html>
