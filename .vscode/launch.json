@@ -4,7 +4,15 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+        {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch localhost",
+            "url": "http://localhost/index.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        
         {
             "name": "Launch Chrome",
             "request": "launch",
@@ -16,7 +24,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "https://farmeroverwatchmarket.com/",
+            "url": "file:///C:/Users/pb157/OneDrive/Documents/My%20Other%20Website/index.html#",
             "webRoot": "${workspaceFolder}"
         }
     ]
