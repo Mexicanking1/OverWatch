@@ -147,8 +147,8 @@ c
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 80%;
-    height: 40%;
+    width: auto;
+    height: auto;
 }
 .contactpumpkin
 {
