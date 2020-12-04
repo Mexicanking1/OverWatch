@@ -153,7 +153,9 @@ c
 .contactpumpkin
 {
     display: block;
-    background: chocolate;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70%;
     width: 90%
 }
 /*-----------------------Submit button---------------*/
